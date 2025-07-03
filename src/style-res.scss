@@ -1,0 +1,553 @@
+// ====================smallpc====================
+@media (min-width:1025px) and (max-width:1500px){
+
+  .header{
+    width: 100%;
+    padding: 30px 90px;
+  }
+  .home{
+    .mySwiper0{
+      .home1{
+        .bgimg{
+          width: 100%;
+          height: 100vh;
+        }
+        .tximg{
+          width: 85%;
+          .main-text{
+            width: 50%;
+            h2{
+              font-size: 2.6rem;
+            }
+            p{
+              font-size: 1rem;
+              display: -webkit-box;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              @supports(-webkit-line-clamp: 3){
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3; // 세 줄까지만 표시
+              }
+            }
+          }
+        }
+      }
+    }
+    .home2, .home3, .home4, .home5{
+      padding-top: 80px;
+        .title{
+          h3{
+            font-size: 1.8rem;
+          }
+          a{
+            font-weight: 500;
+            padding: 10px 25px;
+          }
+        }
+    }
+  }
+  .movie,.tv{
+    .top{
+      padding: 120px 0;
+      p{
+        font-size: 2.2rem;
+      }
+    }
+    .search{
+      input:nth-of-type(2){
+        width: 10%;
+      }
+    }
+  }
+  
+  
+  .list{
+    .top{
+      .bgimg{
+        .imgtex{
+          .text{
+            h2{
+              font-size: 2.2rem;
+            }
+            .pre{
+              >span{
+                padding: 8px;
+                font-size: 0.8rem;
+              }
+            }
+            >p{
+              font-size: 0.9rem;
+              line-height: 1.4;
+            }
+            .etc{
+              .dayaver{
+                .day{
+                  >p{
+                    font-size: 0.9rem;
+                  }
+                  >span{
+                    font-size: 0.9rem;
+                  }
+                }
+                .aver{
+                  >p{
+                    font-size: 0.9rem;
+                  }
+                  >span{
+                    font-size: 0.8rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .another{
+      width: 85%;
+      margin: 0 auto;
+      h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-top: 80px;
+      }
+    }
+  }
+  footer{
+    padding: 30px 90px;    
+  }
+}
+
+
+
+// ====================ipad====================
+@media (min-width:768px) and (max-width:1024px){
+  .header{
+    width: 100%;
+    padding: 30px 65px;
+    >a{
+      font-size: 2rem;
+    }
+    >div{
+      >a{
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-left: 40px;
+      }
+    }
+  }
+
+  .home{
+    .mySwiper0{
+      .home1{
+        .tximg{
+          width: 85%;
+          .main-text{
+            h2{
+              font-size: 2.2rem;
+            }
+            p{
+              font-size: 1rem;
+              line-height: 1.4;
+              font-weight: 400;
+              margin: 30px 0;
+              display: -webkit-box;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              @supports(-webkit-line-clamp: 3){
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3; // 세 줄까지만 표시
+              }
+            }
+            a{
+              font-size: 1.05rem;
+              font-weight: 500;
+              padding: 12px 30px;
+            }
+          }
+        }
+      }
+    }
+    .home2, .home3, .home4, .home5{
+      padding-top: 50px;
+        .title{
+          h3{
+            font-size: 1.4rem;
+            font-weight: 500;
+          }
+          a{
+            font-weight: 400;
+            border: 1px solid white;
+            padding: 8px 25px;
+          }
+          a:hover{
+            border: 1px solid red;
+          }
+        }
+        .list{
+          p{
+            font-size: 1rem;
+            font-weight: 500;
+          }
+          span{
+            font-size: 0.8rem;
+          }
+        }
+    }
+  }
+  .home5{padding-bottom: 50px;}
+  
+  .movie,.tv{
+    .top{
+      padding: 140px 0 80px;
+      p{
+        font-size: 2rem;
+        font-weight: 400;
+      }
+    }
+    .search{
+      input:nth-of-type(1){
+        width: 40%;
+      }
+      input:nth-of-type(2){
+        width: auto;
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
+    }
+    .movlist,.tvlist{
+      li{
+        a{
+          margin-bottom: 25px;
+          p{
+            font-size: 1rem;
+            font-weight: 500;
+          }
+          span{
+            font-size: 0.75rem;
+          }
+          .hov_more{
+            left: 50%; top: 35%;
+            span{
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+    .view{
+      padding: 50px 0 80px;
+      button{
+        padding: 12px 28px;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .list{
+    .top{
+      width: 100%;
+      .bgimg{
+        .imgtex{
+          width: 85%;
+          gap: 5%;
+          p{
+            >img{width: 100%; height: 100%;}
+          }
+          .text{
+            width: 50%;
+            h2{
+              font-size: 1.8rem;
+            }
+            .pre{
+              >span{
+                padding: 8px;
+                font-size: 0.8rem;
+              }
+            }
+            >p{
+              font-size: 0.8rem;
+              line-height: 1.5;
+            }
+            .etc{
+              .dayaver{
+                .day{
+                  >p{
+                    font-size: 0.9rem;
+                  }
+                  >span{
+                    font-size: 0.9rem;
+                  }
+                }
+                .aver{
+                  >p{
+                    font-size: 0.9rem;
+                  }
+                  >span{
+                    font-size: 0.9rem;
+                  }
+                }
+              }
+              .cast{
+                >div{
+                  img{
+                    width: 60px;
+                    padding-right: 10px;
+                  }
+                  p{width: 60px; }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  footer{
+    padding: 30px 65px;
+  }
+}
+
+
+
+// ====================mob====================
+@media (max-width:768px){
+  .header{
+    width: 100%;
+    padding: 20px 5%;
+    >a{
+      font-size: 1.5rem;
+    }
+    >div{
+      >a{
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .home{
+    .mySwiper0{
+      .home1{
+        .bgimg{
+          width: auto;
+          height: 100vh;
+        }
+        .tximg{
+          width: 90%;
+          height: 100vh;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 1.4rem;
+          margin-top: 50px;
+          .main-text{
+            width: 90%;
+            height: 30%;
+            text-align: center;
+            h2{
+              font-size: 1.8rem;
+            }
+            p{
+              font-size: 1rem;
+              line-height: 1.5;
+              font-weight: 400;
+              margin: 15px 0;
+              display: -webkit-box;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              @supports(-webkit-line-clamp: 3){
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3; // 세 줄까지만 표시
+              }
+            }
+            a{
+              font-size: 1.1rem;
+              font-weight: 500;
+              padding: 8px 25px;
+              margin-right: 0;
+            }
+          }
+          .main-img{
+            width: 40%;
+            >img{height: 100%;}
+          }
+        }
+      }
+    }
+    .home2, .home3, .home4, .home5{
+      width: 90%;
+      padding-top: 0;
+      .title{
+        margin-bottom: 30px;
+        h3{
+          font-size: 1.5rem;
+        }
+        a{
+          font-size: 1rem;
+          font-weight: 400;
+          border: 1px solid white;
+          padding: 8px 25px;
+        }
+      }
+      .list{
+        p{
+          font-size: 1rem;
+          font-weight: 500;
+        }
+        span{
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  .home5{padding-bottom: 50px;}
+
+  .movie,.tv{
+    .top{
+      padding: 110px 0 90px;
+      p{
+        font-size: 2rem;
+        font-weight: 400;
+      }
+    }
+    .search{
+      width: 90%;
+      margin: 0 auto 50px;
+      input:nth-of-type(1){
+        width: 50%;
+      }
+      input:nth-of-type(2){
+        width: auto;
+        padding: 10px 20px;
+      }
+    }
+    .movlist,.tvlist{
+      width: 90%;
+      li{
+        width: 29%;
+        a{
+          p{
+            font-size: 1rem;
+            font-weight: 400;
+          }
+          span{
+            font-size: 0.75rem;
+          }
+          .hov_more{
+            left: 50%; top: 35%;
+            span{
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+    .view{
+      width: 90%;
+      padding: 10px 0 50px;
+      button{
+        padding: 12px 25px;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .list{
+    .top{
+      .bgimg{
+        >img{
+          width: 100vw;
+          height: 130vh;
+        }
+        .imgtex{
+          left: 50%; top: 10%;
+          transform: translate(-50%,0%);
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          .text{
+            width: 100%;
+            h2{
+              font-size: 1.4rem;
+              margin-top: 30px;
+            }
+            .pre{
+              >span{
+                font-size: 0.8rem;
+                padding: 8px;
+                margin: 15px 15px 15px 0;
+              }
+            }
+            >p{
+              font-size: 0.9rem;
+              line-height: 1.5;
+              margin-bottom: 15px;
+            }
+            .etc{
+              .dayaver{
+                .day{
+                  >p{
+                    font-size: 0.9rem;
+                    font-weight: 400;
+                  }
+                  >span{
+                    font-size: 0.9rem;
+                    margin-right: 40px;
+                  }
+                }
+                .aver{
+                  >p{
+                    font-size: 0.9rem;
+                    font-weight: 400;
+                  }
+                  >span{
+                    font-size: 0.9rem;
+                  }
+                }
+              }
+              .cast{
+                >div{
+                  img{
+                    width: 60px;
+                  }
+                  p{width: 60px; }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .vid{
+      width: 90%;
+      >div{
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+
+  footer{
+    padding: 20px 5%;
+    >a{
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    div{
+      margin-bottom: 30px;
+      >a{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
